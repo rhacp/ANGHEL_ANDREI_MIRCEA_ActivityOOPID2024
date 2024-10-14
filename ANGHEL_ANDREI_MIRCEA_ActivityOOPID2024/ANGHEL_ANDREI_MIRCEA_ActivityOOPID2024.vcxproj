@@ -22,9 +22,11 @@
     <ClCompile Include="App.cpp" />
     <ClCompile Include="Course\Course1_11.10.24\OOP1_11.10.24.cpp" />
     <ClCompile Include="Course\Course1_11.10.24\Robot.cpp" />
+    <ClCompile Include="Course\Course2\Course2.cpp" />
     <ClCompile Include="Practice\Practice1\Dwarf.cpp" />
     <ClCompile Include="Practice\Practice1\Practice1.cpp" />
     <ClCompile Include="Practice\Practice1\Weapon.cpp" />
+    <ClCompile Include="Practice\Practice2\Practice2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Course\Course1_11.10.24\OOP1_11.10.24.h" />
