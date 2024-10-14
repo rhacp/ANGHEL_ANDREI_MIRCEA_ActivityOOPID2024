@@ -19,7 +19,25 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OOP1_11.10.24\OOP1_11.10.24.cpp" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="Course\Course1_11.10.24\OOP1_11.10.24.cpp" />
+    <ClCompile Include="Course\Course1_11.10.24\Robot.cpp" />
+    <ClCompile Include="Practice\Practice1\Dwarf.cpp" />
+    <ClCompile Include="Practice\Practice1\Practice1.cpp" />
+    <ClCompile Include="Practice\Practice1\Weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Course\Course1_11.10.24\OOP1_11.10.24.h" />
+    <ClInclude Include="Course\Course1_11.10.24\Robot.h" />
+    <ClInclude Include="Practice\Practice1\Dwarf.h" />
+    <ClInclude Include="Practice\Practice1\Practice1.h" />
+    <ClInclude Include="Practice\Practice1\Weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Practice\Practice1\Stuff.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

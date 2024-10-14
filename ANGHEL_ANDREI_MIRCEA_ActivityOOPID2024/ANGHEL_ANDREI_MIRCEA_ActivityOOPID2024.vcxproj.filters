@@ -15,8 +15,48 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OOP1_11.10.24\OOP1_11.10.24.cpp">
+    <ClCompile Include="Practice\Practice1\Dwarf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Practice\Practice1\Practice1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice\Practice1\Weapon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Course\Course1_11.10.24\OOP1_11.10.24.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Course\Course1_11.10.24\Robot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Practice\Practice1\Dwarf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Practice\Practice1\Weapon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Practice\Practice1\Practice1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Course\Course1_11.10.24\OOP1_11.10.24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Course\Course1_11.10.24\Robot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Practice\Practice1\Stuff.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.md" />
   </ItemGroup>
 </Project>
