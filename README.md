@@ -4,20 +4,14 @@ All individual courses and practices are runned from the `App.cpp` file.
 
 ---
 
-### Courses
+### Course1
 
-Courses info.
-
-##### Course1
 - OOP introduction;
 
 ---
 
-### Practices
+### Practice1
 
-Practices info.
-
-##### Practice1
 - OOP game practice;
 
 ---
