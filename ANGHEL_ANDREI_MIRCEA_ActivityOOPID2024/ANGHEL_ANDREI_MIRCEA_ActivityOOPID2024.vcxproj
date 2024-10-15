@@ -26,6 +26,9 @@
     <ClCompile Include="Practice\Practice1\Dwarf.cpp" />
     <ClCompile Include="Practice\Practice1\Practice1.cpp" />
     <ClCompile Include="Practice\Practice1\Weapon.cpp" />
+    <ClCompile Include="Practice\Practice2\Account.cpp" />
+    <ClCompile Include="Practice\Practice2\AccountList.cpp" />
+    <ClCompile Include="Practice\Practice2\CreditAccount.cpp" />
     <ClCompile Include="Practice\Practice2\Practice2.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -34,12 +37,16 @@
     <ClInclude Include="Practice\Practice1\Dwarf.h" />
     <ClInclude Include="Practice\Practice1\Practice1.h" />
     <ClInclude Include="Practice\Practice1\Weapon.h" />
+    <ClInclude Include="Practice\Practice2\Account.h" />
+    <ClInclude Include="Practice\Practice2\AccountList.h" />
+    <ClInclude Include="Practice\Practice2\CreditAccount.h" />
+    <ClInclude Include="Practice\Practice2\Practice2.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Practice\Practice1\Stuff.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="readme.md" />
+    <None Include="..\README.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
