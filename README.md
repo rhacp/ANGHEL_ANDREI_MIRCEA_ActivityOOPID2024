@@ -29,5 +29,6 @@ All individual courses and practices are runned from the `App.cpp` file.
 - practice with encapsulation through private properties accessed by getters and setters;
 - practice with abstractization through the use of header files;
 - practice with polymorphism through method overloading;
+- created AccountList class to simulate DB;
 
 ---
