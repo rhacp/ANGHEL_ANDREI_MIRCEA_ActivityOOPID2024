@@ -18,6 +18,7 @@ All individual courses and practices are runned from the `App.cpp` file.
 - use custom object as property of another;
 - practice with pointers, ampersant and pass-by-reference;
 - practice with const keyword;
+- practice with abstractization through the use of header files;
 
 ---
 
@@ -25,6 +26,8 @@ All individual courses and practices are runned from the `App.cpp` file.
 
 - OOP bank model;
 - practice with inheritance;
-- define getters and setters;
+- practice with encapsulation through private properties accessed by getters and setters;
+- practice with abstractization through the use of header files;
+- practice with polymorphism through method overloading;
 
 ---
