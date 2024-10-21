@@ -22,8 +22,9 @@
     <ClCompile Include="App.cpp" />
     <ClCompile Include="Course\Course1_11.10.24\OOP1_11.10.24.cpp" />
     <ClCompile Include="Course\Course1_11.10.24\Robot.cpp" />
-    <ClCompile Include="Course\Course2\Car.cpp" />
-    <ClCompile Include="Course\Course2\Course2.cpp" />
+    <ClCompile Include="Course\Course2_19.10.2024\Car.cpp" />
+    <ClCompile Include="Course\Course2_19.10.2024\Course2.cpp" />
+    <ClCompile Include="Course\Course3_21.10.2024\Course3.cpp" />
     <ClCompile Include="Practice\Practice1\Dwarf.cpp" />
     <ClCompile Include="Practice\Practice1\Practice1.cpp" />
     <ClCompile Include="Practice\Practice1\Weapon.cpp" />
@@ -35,8 +36,9 @@
   <ItemGroup>
     <ClInclude Include="Course\Course1_11.10.24\OOP1_11.10.24.h" />
     <ClInclude Include="Course\Course1_11.10.24\Robot.h" />
-    <ClInclude Include="Course\Course2\Car.h" />
-    <ClInclude Include="Course\Course2\Course2.h" />
+    <ClInclude Include="Course\Course2_19.10.2024\Car.h" />
+    <ClInclude Include="Course\Course2_19.10.2024\Course2.h" />
+    <ClInclude Include="Course\Course3_21.10.2024\Course3.h" />
     <ClInclude Include="Practice\Practice1\Dwarf.h" />
     <ClInclude Include="Practice\Practice1\Practice1.h" />
     <ClInclude Include="Practice\Practice1\Weapon.h" />
