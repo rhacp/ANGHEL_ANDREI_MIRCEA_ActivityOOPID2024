@@ -21,6 +21,94 @@ Car::Car(const string& brand, const int& componentNumber, const float* prices) :
 	delete[] prices;
 }
 
+Car::Car(const Car& m) :m_id(++m_carNumber) {
+	this->m_brand = m.m_brand;
+	this->m_componentNumber = m.m_componentNumber;
+	this->m_prices = new float[this->m_componentNumber];
+
+	for (int i = 0; i < this->m_componentNumber; i++) {
+		this->m_prices[i] = m.m_prices[i];
+	}
+}
+
+//void Car::operator=(const Car& m) {
+//	if (this != &m) {
+//		this->m_brand = m.m_brand;
+//		this->m_componentNumber = m.m_componentNumber;
+//		this->m_prices = new float[this->m_componentNumber];
+//
+//		if (this->m_prices != nullptr) {
+//			delete[] this->m_prices;
+//		}
+//
+//		for (int i = 0; i < this->m_componentNumber; i++) {
+//			this->m_prices[i] = m.m_prices[i];
+//		}
+//	}
+//}
+
+const Car& Car::operator=(const Car& m) {
+	if (this != &m) {
+		this->m_brand = m.m_brand;
+		this->m_componentNumber = m.m_componentNumber;
+		this->m_prices = new float[this->m_componentNumber];
+
+		if (this->m_prices != nullptr) {
+			delete[] this->m_prices;
+		}
+
+		for (int i = 0; i < this->m_componentNumber; i++) {
+			this->m_prices[i] = m.m_prices[i];
+		}
+
+		return *this;
+	}
+	else {
+		return *this;
+	}
+}
+
+const Car& Car::operator+=(float priceToAdd) {
+	this->m_componentNumber++;
+
+	float* aux = new float[this->m_componentNumber];
+
+	for (int i = 0; i < this->m_componentNumber - 1; i++) {
+		aux[i] = this->m_prices[i];
+	}
+
+	aux[this->m_componentNumber - 1] = priceToAdd;
+
+	if (this->m_prices != nullptr) {
+		delete[] this->m_prices;
+	}
+
+	this->m_prices = aux;
+
+	return *this;
+}
+
+Car Car::operator+(float priceToAdd) const {
+	Car temp = *this;
+
+	float* aux = new float[temp.m_componentNumber + 1];
+
+	for (int i = 0; i < this->m_componentNumber; i++) {
+		aux[i] = this->m_prices[i];
+	}
+
+	aux[temp.m_componentNumber] = priceToAdd;
+
+	if (temp.m_prices != nullptr) {
+		delete[] temp.m_prices;
+	}
+
+	temp.m_prices = aux;
+	temp.m_componentNumber++;
+
+	return temp;
+}
+
 const void Car::printObject() const {
 	cout << "{\n    Id: " << this->m_id << ","
 		<< "\n    Number of Cars: " << this->m_carNumber << ","
@@ -85,3 +173,8 @@ const float* Car::getPrices() {
 }
 
 int Car::m_carNumber = 0;
+
+Car operator+(float priceToAdd, Car m) {
+	Car temp = m + priceToAdd;
+	return temp;
+}

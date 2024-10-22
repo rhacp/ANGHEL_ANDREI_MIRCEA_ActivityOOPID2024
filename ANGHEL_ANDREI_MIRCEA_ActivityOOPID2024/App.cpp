@@ -2,7 +2,7 @@
 #include "Course/Course1_11.10.24/OOP1_11.10.24.h"
 #include "Practice/Practice1/Practice1.h"
 #include "Practice/Practice2/Practice2.h"
-#include "Course/Course2/Course2.h"
+#include "Course/Course2_19.10.2024/Course2.h"
 
 using namespace std;
 

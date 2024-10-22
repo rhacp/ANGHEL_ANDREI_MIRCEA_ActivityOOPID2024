@@ -16,6 +16,16 @@ public:
 
 	Car(const string& brand, const int& componentNumber, const float* prices);
 
+	Car(const Car& m);
+
+	//void operator=(const Car& m);
+
+	const Car& operator=(const Car& m);
+
+	const Car& operator+=(float price);
+
+	Car operator+(float price) const;
+
 	const void printObject() const;
 
 	void setBrand(const string& brand);
@@ -30,3 +40,5 @@ public:
 
 	const float* getPrices();
 };
+
+Car operator+(float price, Car m);
