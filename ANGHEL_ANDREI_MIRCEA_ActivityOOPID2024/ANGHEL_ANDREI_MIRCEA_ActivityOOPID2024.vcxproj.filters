@@ -50,6 +50,15 @@
     <Filter Include="Practice\Practice1\Resource Files">
       <UniqueIdentifier>{b550f672-9d7c-4adf-a74b-4de5992ff153}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Course\Course3">
+      <UniqueIdentifier>{16b8c2a9-2f5a-4137-8288-53c2fcfd56de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Course\Course3\Header Files">
+      <UniqueIdentifier>{971614e0-3fca-406a-b4e7-a781ca7c420b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Course\Course3\Source Files">
+      <UniqueIdentifier>{7e893ecf-bd97-4b35-bd81-a77331a4d1a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp">
@@ -67,9 +76,6 @@
     <ClCompile Include="Practice\Practice1\Practice1.cpp">
       <Filter>Practice\Practice1\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Course\Course2\Course2.cpp">
-      <Filter>Course\Course2\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Course\Course1_11.10.24\Robot.cpp">
       <Filter>Course\Course1_11.10.24\Source Files</Filter>
     </ClCompile>
@@ -85,8 +91,14 @@
     <ClCompile Include="Practice\Practice2\Practice2.cpp">
       <Filter>Practice\Practice2\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Course\Course2\Car.cpp">
+    <ClCompile Include="Course\Course2_19.10.2024\Car.cpp">
       <Filter>Course\Course2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Course\Course2_19.10.2024\Course2.cpp">
+      <Filter>Course\Course2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Course\Course3_21.10.2024\Course3.cpp">
+      <Filter>Course\Course3\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -117,11 +129,14 @@
     <ClInclude Include="Practice\Practice1\Practice1.h">
       <Filter>Practice\Practice1\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Course\Course2\Car.h">
+    <ClInclude Include="Course\Course2_19.10.2024\Car.h">
       <Filter>Course\Course2\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Course\Course2\Course2.h">
+    <ClInclude Include="Course\Course2_19.10.2024\Course2.h">
       <Filter>Course\Course2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Course\Course3_21.10.2024\Course3.h">
+      <Filter>Course\Course3\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

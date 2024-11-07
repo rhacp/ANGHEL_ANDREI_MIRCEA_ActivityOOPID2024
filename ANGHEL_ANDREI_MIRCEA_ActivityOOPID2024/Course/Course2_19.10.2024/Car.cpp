@@ -3,6 +3,12 @@
 
 using namespace std;
 
+Car::~Car() {
+	if (this->m_prices != nullptr) {
+		delete[] this->m_prices;
+	}
+}
+
 Car::Car() :m_id(++m_carNumber) {
 	this->m_brand = "Necunoscut";
 	this->m_componentNumber = 0;
@@ -51,11 +57,12 @@ const Car& Car::operator=(const Car& m) {
 	if (this != &m) {
 		this->m_brand = m.m_brand;
 		this->m_componentNumber = m.m_componentNumber;
-		this->m_prices = new float[this->m_componentNumber];
 
 		if (this->m_prices != nullptr) {
 			delete[] this->m_prices;
 		}
+
+		this->m_prices = new float[this->m_componentNumber];
 
 		for (int i = 0; i < this->m_componentNumber; i++) {
 			this->m_prices[i] = m.m_prices[i];

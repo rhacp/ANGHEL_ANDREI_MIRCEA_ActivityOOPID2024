@@ -12,6 +12,8 @@ private:
 	float* m_prices;
 
 public:
+	~Car();
+
 	Car();
 
 	Car(const string& brand, const int& componentNumber, const float* prices);
