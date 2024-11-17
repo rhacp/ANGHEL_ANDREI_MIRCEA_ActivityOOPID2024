@@ -2,7 +2,7 @@
 #include "Dwarf.h"
 #include "Practice1.h"
 
-
+using namespace std;
 
 int mainPracticeOne() {
 	Dwarf dwarf1("Marcus");

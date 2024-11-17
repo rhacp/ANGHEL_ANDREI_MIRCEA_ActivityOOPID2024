@@ -3,6 +3,7 @@
 #include "Practice/Practice1/Practice1.h"
 #include "Practice/Practice2/Practice2.h"
 #include "Course/Course2_19.10.2024/Course2.h"
+#include "Practice/Practice4/Practice4.h"
 
 using namespace std;
 
@@ -38,5 +39,8 @@ int main() {
 	//cout << "\n\n";
 
 	//Practice Two
-	mainCourseTwo();
+	//mainCourseTwo();
+
+	//Practice Four (Tema1)
+	mainPracticeFour();
 }

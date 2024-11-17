@@ -71,6 +71,15 @@
     <Filter Include="Practice\Practice3_Proiect\Resource Files">
       <UniqueIdentifier>{c4d5ef58-4528-4907-989c-4f73647c51a8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Practice\Practice4_Tema1">
+      <UniqueIdentifier>{4ba0d370-e1a4-4fee-a14a-322e226d93fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice\Practice4_Tema1\Header Files">
+      <UniqueIdentifier>{45dc919f-9f36-41a5-b01d-86d19eaaee37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice\Practice4_Tema1\Source Files">
+      <UniqueIdentifier>{5d754d53-fa53-4019-9505-ab18e2e62715}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp">
@@ -112,6 +121,12 @@
     <ClCompile Include="Course\Course3_21.10.2024\Course3.cpp">
       <Filter>Course\Course3\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Practice\Practice4\Autobuz.cpp">
+      <Filter>Practice\Practice4_Tema1\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice\Practice4\Practice4.cpp">
+      <Filter>Practice\Practice4_Tema1\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Course\Course1_11.10.24\Robot.h">
@@ -150,16 +165,22 @@
     <ClInclude Include="Course\Course3_21.10.2024\Course3.h">
       <Filter>Course\Course3\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sword.h">
+    <ClInclude Include="Practice\Practice4\Autobuz.h">
+      <Filter>Practice\Practice4_Tema1\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Practice\Practice4\Practice4.h">
+      <Filter>Practice\Practice4_Tema1\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Practice\Practice3\Jwelery.h">
       <Filter>Practice\Practice3_Proiect\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Weapon.h">
+    <ClInclude Include="Practice\Practice3\Shield.h">
       <Filter>Practice\Practice3_Proiect\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Shield.h">
+    <ClInclude Include="Practice\Practice3\Sword.h">
       <Filter>Practice\Practice3_Proiect\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Jwelery.h">
+    <ClInclude Include="Practice\Practice3\Weapon.h">
       <Filter>Practice\Practice3_Proiect\Header Files</Filter>
     </ClInclude>
   </ItemGroup>

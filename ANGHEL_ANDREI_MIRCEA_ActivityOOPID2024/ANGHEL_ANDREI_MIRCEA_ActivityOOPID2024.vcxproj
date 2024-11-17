@@ -32,6 +32,8 @@
     <ClCompile Include="Practice\Practice2\AccountList.cpp" />
     <ClCompile Include="Practice\Practice2\CreditAccount.cpp" />
     <ClCompile Include="Practice\Practice2\Practice2.cpp" />
+    <ClCompile Include="Practice\Practice4\Autobuz.cpp" />
+    <ClCompile Include="Practice\Practice4\Practice4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Course\Course1_11.10.24\OOP1_11.10.24.h" />
@@ -39,7 +41,6 @@
     <ClInclude Include="Course\Course2_19.10.2024\Car.h" />
     <ClInclude Include="Course\Course2_19.10.2024\Course2.h" />
     <ClInclude Include="Course\Course3_21.10.2024\Course3.h" />
-    <ClInclude Include="Jwelery.h" />
     <ClInclude Include="Practice\Practice1\Dwarf.h" />
     <ClInclude Include="Practice\Practice1\Practice1.h" />
     <ClInclude Include="Practice\Practice1\Weapon.h" />
@@ -47,9 +48,12 @@
     <ClInclude Include="Practice\Practice2\AccountList.h" />
     <ClInclude Include="Practice\Practice2\CreditAccount.h" />
     <ClInclude Include="Practice\Practice2\Practice2.h" />
-    <ClInclude Include="Shield.h" />
-    <ClInclude Include="Sword.h" />
-    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="Practice\Practice3\Jwelery.h" />
+    <ClInclude Include="Practice\Practice3\Shield.h" />
+    <ClInclude Include="Practice\Practice3\Sword.h" />
+    <ClInclude Include="Practice\Practice3\Weapon.h" />
+    <ClInclude Include="Practice\Practice4\Autobuz.h" />
+    <ClInclude Include="Practice\Practice4\Practice4.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Practice\Practice1\Stuff.txt" />
