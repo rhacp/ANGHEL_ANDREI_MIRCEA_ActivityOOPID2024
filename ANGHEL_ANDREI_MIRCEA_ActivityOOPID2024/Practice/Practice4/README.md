@@ -2,7 +2,7 @@
 
 ### Run the Project
 
-1. Copy/download the repository in your local Visal Studio.
+1. Copy/download the entire repository in your local Visal Studio.
 2. Run the project, and only "Practice4_Tema1" will run.
 3. Enjoy!
 
