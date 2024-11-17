@@ -23,7 +23,7 @@ Autobuz::Autobuz(int capacitate, int nrPersoaneImbarcate, char* producator) :idA
 		this->capacitate = 0;
 	}
 
-	if (nrPersoaneImbarcate >= 0 && nrPersoaneImbarcate < capacitate) {
+	if (nrPersoaneImbarcate >= 0 && nrPersoaneImbarcate <= capacitate) {
 		this->nrPersoaneImbarcate = nrPersoaneImbarcate;
 	}
 	else {
