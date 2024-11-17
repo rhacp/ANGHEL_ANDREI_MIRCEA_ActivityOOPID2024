@@ -84,6 +84,20 @@ Autobuz::operator int() const {
 	return this->nrPersoaneImbarcate;
 }
 
+const void Autobuz::printObject() const {
+	cout << "{\n    \"nrAutobuze\": \"" << this->nrAutobuze << "\","
+		<< "\n    \"idAutobuz\": \"" << this->idAutobuz << "\","
+		<< "\n    \"capacitate\": \"" << this->capacitate << "\","
+		<< "\n    \"nrPersoaneImbarcate\": \"" << this->nrPersoaneImbarcate << "\","
+		<< "\n    \"producator\": \"";
+	if (this->producator != nullptr) {
+		for (int i = 0; i < strlen(this->producator); i++) {
+			cout << this->producator[i];
+		}
+	}
+	cout << "\"\n}";
+}
+
 void Autobuz::setCapacitate(int capacitate) {
 	this->capacitate = capacitate;
 }
@@ -133,7 +147,7 @@ const ostream& operator<<(ostream& consola, const Autobuz& autobuz) {
 		<< "producator: ";
 	if (autobuz.producator != nullptr) {
 		for (int i = 0; i < strlen(autobuz.producator); i++) {
-			cout << autobuz.producator[i];
+			consola << autobuz.producator[i];
 		}
 	}
 	else {

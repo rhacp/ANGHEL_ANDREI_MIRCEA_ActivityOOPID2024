@@ -28,6 +28,8 @@ public:
 
 	operator int() const;
 
+	const void printObject() const;
+
 	void setCapacitate(int capacitate);
 
 	void setNrPersoaneImbarcate(int nrPersoaneImbarcate);

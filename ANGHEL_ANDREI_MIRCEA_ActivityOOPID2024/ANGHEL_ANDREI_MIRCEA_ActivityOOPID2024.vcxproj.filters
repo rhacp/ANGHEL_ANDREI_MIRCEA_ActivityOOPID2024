@@ -186,6 +186,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
+    <None Include="Practice\Practice4\README.md">
+      <Filter>Practice\Practice4_Tema1</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Practice\Practice1\Stuff.txt">
