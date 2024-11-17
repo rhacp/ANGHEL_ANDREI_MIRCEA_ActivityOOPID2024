@@ -39,6 +39,7 @@
     <ClInclude Include="Course\Course2_19.10.2024\Car.h" />
     <ClInclude Include="Course\Course2_19.10.2024\Course2.h" />
     <ClInclude Include="Course\Course3_21.10.2024\Course3.h" />
+    <ClInclude Include="Jwelery.h" />
     <ClInclude Include="Practice\Practice1\Dwarf.h" />
     <ClInclude Include="Practice\Practice1\Practice1.h" />
     <ClInclude Include="Practice\Practice1\Weapon.h" />
@@ -46,6 +47,9 @@
     <ClInclude Include="Practice\Practice2\AccountList.h" />
     <ClInclude Include="Practice\Practice2\CreditAccount.h" />
     <ClInclude Include="Practice\Practice2\Practice2.h" />
+    <ClInclude Include="Shield.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Practice\Practice1\Stuff.txt" />
