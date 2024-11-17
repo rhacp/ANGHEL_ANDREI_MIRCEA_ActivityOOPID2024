@@ -31,7 +31,7 @@ int mainPracticeFour() {
 	cout << "thirdAutobuz:" << endl;
 	thirdAutobuz.setCapacitate(30);
 	thirdAutobuz.setNrPersoaneImbarcate(20);
-	char* secondProducator = new char[9] {"MERCEDES"};
+	char* secondProducator = new char[9]{"MERCEDES"};
 	thirdAutobuz.setProducator(secondProducator);
 	cout << thirdAutobuz;
 	cout << endl << endl;
