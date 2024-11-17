@@ -20,9 +20,16 @@ int mainPracticeFour() {
 	cout << endl << endl;
 	cout << "-----------------------------------" << endl << endl;
 
-	cout << "Constructor de copiere." << endl << endl;
+	cout << "Operator =." << endl << endl;
 	cout << "thirdAutobuz:" << endl;
 	Autobuz thirdAutobuz = secondAutobuz;
+	cout << thirdAutobuz;
+	cout << endl << endl;
+	cout << "-----------------------------------" << endl << endl;
+
+	cout << "Constructor de copiere." << endl << endl;
+	cout << "fourthAutobuz:" << endl;
+	Autobuz fourthAutobuz(secondAutobuz);
 	cout << thirdAutobuz;
 	cout << endl << endl;
 	cout << "-----------------------------------" << endl << endl;
