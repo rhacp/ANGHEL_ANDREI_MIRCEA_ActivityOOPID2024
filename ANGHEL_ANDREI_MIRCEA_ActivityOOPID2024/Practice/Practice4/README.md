@@ -24,17 +24,24 @@ nrAutobuze: 2; idAutobuz: 2; capacitate: 10; nrPersoaneImbarcate: 5; producator:
 
 -----------------------------------
 
-Constructor de copiere.
+Operator =.
 
 thirdAutobuz:
 nrAutobuze: 3; idAutobuz: 3; capacitate: 10; nrPersoaneImbarcate: 5; producator: NISSAN
 
 -----------------------------------
 
+Constructor de copiere.
+
+fourthAutobuz:
+nrAutobuze: 4; idAutobuz: 3; capacitate: 10; nrPersoaneImbarcate: 5; producator: NISSAN
+
+-----------------------------------
+
 Setters.
 
 thirdAutobuz:
-nrAutobuze: 3; idAutobuz: 3; capacitate: 30; nrPersoaneImbarcate: 20; producator: MERCEDES
+nrAutobuze: 4; idAutobuz: 3; capacitate: 30; nrPersoaneImbarcate: 20; producator: MERCEDES
 
 -----------------------------------
 
@@ -66,12 +73,13 @@ Print object in JSON format.
 
 thirdAutobuz:
 {
-    "nrAutobuze": "3",
+    "nrAutobuze": "4",
     "idAutobuz": "3",
     "capacitate": "30",
     "nrPersoaneImbarcate": "20",
     "producator": "MERCEDES"
 }
+
 ```
 
 ---
