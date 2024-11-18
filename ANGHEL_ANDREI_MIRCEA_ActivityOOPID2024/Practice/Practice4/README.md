@@ -2,7 +2,7 @@
 
 ### Run the Project
 
-1. Copy/download the entire repository to your local IDE.
+1. Copy/download the entire repository to your  IDE.
 2. Run the project.
 
 ---
