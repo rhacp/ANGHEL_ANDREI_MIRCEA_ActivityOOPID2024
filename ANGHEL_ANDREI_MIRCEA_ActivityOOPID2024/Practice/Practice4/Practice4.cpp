@@ -22,7 +22,8 @@ int mainPracticeFour() {
 
 	cout << "Operator =." << endl << endl;
 	cout << "thirdAutobuz:" << endl;
-	Autobuz thirdAutobuz = secondAutobuz;
+	Autobuz thirdAutobuz;
+	thirdAutobuz = secondAutobuz;
 	cout << thirdAutobuz;
 	cout << endl << endl;
 	cout << "-----------------------------------" << endl << endl;
